@@ -10,7 +10,7 @@ def get_energy_info(place):
             'kansai': json_data['kansai']['max_percent'],
             'chugoku': json_data['chugoku']['max_percent'],
             'tohoku': json_data['tohoku']['max_percent'],
-            'shikoku': json_data['shikoku']['max_percent']
+            'shikoku': json_data['shikoku']['max_percent'],
             'kyushu': json_data['kyushu']['max_percent'],
             'chubu': json_data['chubu']['max_percent'],
             'tokyo': json_data['tokyo']['max_percent'],
