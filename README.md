@@ -2,7 +2,7 @@
 Get the max percentage for each power company in Japan. Please use it to save electricity.
 
 ## Usage
-Return Type : ```int```
+Return Type : ```int``` or ```dictionary```
 
 ### Values
  - 関西電力：```kansai```
@@ -15,10 +15,11 @@ Return Type : ```int```
  - 沖縄電力：```okinawa```
  - 北海道電力：```hokkaido```
  - 北陸電力：```hokuriki```
+ - 全電力会社：```all```
 
 ### Example Code
 ```python
 from main import get_energy_info
 
-print(get_energy_info(kansai))
+print(get_energy_info('kansai'))
 ```
