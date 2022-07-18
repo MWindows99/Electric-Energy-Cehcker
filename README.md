@@ -5,6 +5,9 @@ Get the max percentage for each power company in Japan. Please use it to save el
 Return Type : ```int``` or ```dictionary```
 
 ### Values
+Enter the value of the power company for which you want to acquire data as an argument.<br>
+If you specify ```all```, you can get the data of all electric power companies.
+
  - 関西電力：```kansai```
  - 中国電力：```chugoku```
  - 東北電力：```tohoku```
