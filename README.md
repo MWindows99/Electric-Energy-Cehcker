@@ -1,2 +1,24 @@
 # Electric-Energy-Cehcker
 Get the max percentage for each power company in Japan. Please use it to save electricity.
+
+## Usage
+Return Type : ```int```
+
+### Values
+ - 関西電力：```kansai```
+ - 中国電力：```chugoku```
+ - 東北電力：```tohoku```
+ - 四国電力：```shikoku```
+ - 九州電力：```kyushu```
+ - 中部電力：```chubu```
+ - 東京電力：```tokyo```
+ - 沖縄電力：```okinawa```
+ - 北海道電力：```hokkaido```
+ - 北陸電力：```hokuriki```
+
+### Example Code
+```python
+from main import get_energy_info
+
+print(get_energy_info(kansai))
+```
