@@ -18,7 +18,10 @@ def get_energy_info(place):
             'hokkaido': json_data['hokkaido']['max_percent'],
             'hokuriku': json_data['hokuriku']['max_percent']
         }
-        percentage = place_info.get(place)
+        if place == 'all':
+            percentage = place_info
+        else:
+            percentage = place_info.get(place)
         return percentage
     else:
         return False
